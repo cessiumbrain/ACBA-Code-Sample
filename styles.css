@@ -1,0 +1,16 @@
+.nav-link {
+    color: white !important;
+}
+.timeline-widget {
+  height: 50px;
+}
+
+footer {
+    height: 20vh;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
