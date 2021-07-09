@@ -12,5 +12,20 @@ footer {
 
 footer a {
     color: white;
+    font-size: 15px !important;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.timeline-Widget {
+    height: 50vh;
+    overflow: scroll
+}
+
+#twitter-widget-0 {
+    height: 50vh !important;
+    overflow: scroll !important;
 }
 
