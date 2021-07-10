@@ -11,7 +11,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -20,9 +20,9 @@
                           About
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Mission Statement</a></li>
-                          <li><a class="dropdown-item" href="#">By-Laws</a></li>
-                          <li><a class="dropdown-item" href="#">Committees, sections, & divisions</a></li>
+                          <li><a class="dropdown-item" href="https://www.acba.org/About/General-Information">Mission Statement</a></li>
+                          <li><a class="dropdown-item" href="https://www.acba.org/By-Laws">By-Laws</a></li>
+                          <li><a class="dropdown-item" href="https://www.acba.org/Directory/Committee-Directory">Committees, sections, & divisions</a></li>
                         </ul>
                       </li>
                   <li class="nav-item dropdown">
@@ -30,8 +30,8 @@
                       Resources
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Publications</a></li>
-                      <li><a class="dropdown-item" href="#">Audited Financial Statements</a></li>
+                      <li><a class="dropdown-item" href="https://www.acba.org/Lawyers-Journal">Publications</a></li>
+                      <li><a class="dropdown-item" href="https://www.acba.org/Audited-Financial-Statement-Annual-Report">Audited Financial Statements</a></li>
                       <li><a class="dropdown-item" href="#"></a></li>
                     </ul>
                   </li>
@@ -40,9 +40,9 @@
                       People
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Members</a></li>
-                      <li><a class="dropdown-item" href="#">Staff</a></li>
-                      <li><a class="dropdown-item" href="#">Governance</a></li>
+                      <li><a class="dropdown-item" href="https://www.acba.org/Directory">Members</a></li>
+                      <li><a class="dropdown-item" href="https://www.acba.org/About/Employees">Staff</a></li>
+                      <li><a class="dropdown-item" href="http://www.acba.org/BOG">Governance</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
@@ -50,16 +50,22 @@
                       Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Job Placement/ Internship</a></li>
-                      <li><a class="dropdown-item" href="#">Staff</a></li>
-                      <li><a class="dropdown-item" href="#">Governance</a></li>
+                      <li><a class="dropdown-item" href="https://jobs.acba.org/">Job Placement/ Internship</a></li>
+                      <li><a class="dropdown-item" href="http://www.acba.org/attorney-resources">Auttorney Resources</a></li>
+                      <li><a class="dropdown-item" href="http://www.acba.org/resources/resources-for-legal-professionals">Manuals & Guides</a></li>
                     </ul>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.acba.org/Login?returnurl=%2f">
+                      Login
+                    </a>
+                  </li>
+                  
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <form class="d-flex justify-content-center align-items-center mb-0">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
               </div>
             </div>
           </nav>
@@ -75,13 +81,22 @@
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="./assets/slide1.jpeg" class="d-block w-100" alt="...">
+                              <a href="mailto:bknavish@acba.org">
+                               <img src="./assets/slide1.jpeg" class="d-block w-100" alt="Practice area profile">   
+                              </a>
+                            
                           </div>
                           <div class="carousel-item">
-                            <img src="./assets/slide2.png" class="d-block w-100" alt="...">
+                              <a href="https://www.acba.org/Event-Status">
+                                <img src="./assets/slide2.png" class="d-block w-100" alt="covid and the Pittsburgh legal community">
+                            </a>
+                            
                           </div>
                           <div class="carousel-item">
-                            <img src="./assets/slide3.jpeg" class="d-block w-100" alt="...">
+                              <a href="https://vimeo.com/572597993/2f1db547a6">
+                                <img src="./assets/slide3.jpeg" class="d-block w-100" alt="passing of the gavel ceremony">    
+                              </a>
+                            
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -103,7 +118,7 @@
         
         <footer class="row bg-dark">
 
-                <div class="col-md-4 bg-dark d-flex align-items-center justify-content-center">
+                <div class="col-lg-4 bg-dark d-flex align-items-center justify-content-center">
                     <a href="https://www.facebook.com/alleghenycountybar">
                         <i class="fab fa-3x fa-facebook-square p-1"></i>
                     </a>
@@ -121,13 +136,13 @@
                         <i class="fas fa-3x fa-phone-square p-1"></i> 
                     </a> 
                 </div>
-                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <div class="col-lg-4 d-flex justify-content-center align-items-center">
                     <p class="text-align-center">400 Koppers Building<br/>
                     436 Seventh Ave.<br/>
                 Pittsburgh, PA 15219</p> 
                         
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <p class="text-align-center">
                         <a href="https://www.acba.org/Staff-Positions">careers</a><br/>
                         <a href="https://www.acba.org/Portals/0/doc/ACBASocialMediaPolicy2018.pdf">social media policy</a><br/>
@@ -141,7 +156,7 @@
 
         <script src="node_modules/jquery/dist/jquery.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-        
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     </body>
 

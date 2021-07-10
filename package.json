@@ -1,0 +1,30 @@
+{
+  "name": "ACBAR-Test",
+  "version": "1.0.0",
+  "description": "I wanted to do a quick but light redesign of the existing website for this assignment. I used bootstrap for a lot of the features (carousel, responsive navbar, dropdown menus and responsive layout).   I used font awesome icons for the social media and contact icons in the footer.   I used a utility called tagbox to embed the twitter feed.  I like it better than twitter's default service.  It can integrate other social media  accounts and is itself responsive, so when a user views the site on mobile and bootstrap expands that column to fill the whole screen, it will array the tweets across that column, not just in a single column.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "cli": "^1.0.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cessiumbrain/ACBA-Code-Sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cessiumbrain/ACBA-Code-Sample/issues"
+  },
+  "homepage": "https://github.com/cessiumbrain/ACBA-Code-Sample#readme"
+}
