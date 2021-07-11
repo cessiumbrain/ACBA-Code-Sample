@@ -1,9 +1,15 @@
 .nav-link {
     color: white !important;
+    font-size: 30px;
+}
+
+i {
+    font-size: 40px;
 }
 
 button i {
     color: white;
+    font-size: 50px;
 }
 .timeline-widget {
   height: 50px;
@@ -22,6 +28,8 @@ footer p{
     text-align: center;
     font-size: 15px;
 }
+
+
 
 .timeline-Widget {
     height: 50vh;
